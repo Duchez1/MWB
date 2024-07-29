@@ -1,0 +1,204 @@
+Scenario 1:Front-end development
+ 
+Question 1:
+You are working on a responsive website project. You need to ensure that the website looks
+good on all devices. Which of the following frameworks would you use to achieve this, and
+why?
+4. Bootstrap - it is a CSS framework that is mobile first and deals with responsive design.
+
+Question 2: 
+In the same project, you need to make the web page interactive. Which technologies will you
+primarily use?
+2. HTML and Javascript
+
+Question 3:
+For creating a smooth user experience, you need to ensure that your website has a strong user
+interface design. Which of the following is a core technology used in front-end development
+to achieve this?
+3. HTML
+
+Scenario 2 -Web page rendering
+
+Question 1
+Your team is debugging a web application. When you enter google.com in the browser, the
+page doesn’t load. What could be the issue if the DNS lookup is failing, and how would you
+troubleshoot it?
+4. Check the DNS server settings
+
+Question 2
+After resolving the DNS issue, the page still fails to load. What would be your next step in
+troubleshooting?
+1. Check for server errors
+
+Question 3
+Once the DNS lookup is successful, what is the next step in the process of loading a web page?
+ 3. Sending a HTTP request
+
+Question 4
+What happens after the browser sends an HTTP request to the server?
+ 1. The server processes the request and sends a HTTP response
+
+Scenario 3 -HTTP protocol
+
+Question 1
+During a code review, you notice that the team is using HTTP for communication between the
+client and server. What are the primary functions of HTTP, and how does it facilitate web
+interactions?
+ 2. Fetches resources such as HTML documents - HTTP enables communication between clients (web browsers, mobile apps, etc.) and servers by defining a standard way to request and transfer data.
+
+Question 2
+If the server needs to send an HTML document to the client, what protocol would it use?
+ 2. HTTP
+
+Question 3
+In a scenario where data privacy is a concern, which version of HTTP would be more
+appropriate to use?
+ 2. HTTPS
+
+ Scenario 4 -Static vs Dynamic website
+
+Question 1
+Your client requests a website that can display personalized content to each user based on their
+preferences. What type of website would you recommend, and what technologies might you
+use?
+ 2. Dynamic website using Javascript and Databases
+
+Question 2
+Which of the following is a characteristic of a static website?
+ 1. Displays the same content for all users
+
+Question 3
+What is an example of a dynamic website?
+ 4. A social media platform like facebook
+
+Question 4
+Which technology is essential for creating a dynamic website that interacts with a database?
+ 4. Python
+
+ Scenario 5 -Client-server architecture
+
+Question 1
+You are explaining the client-server model to a new team member. Describe a scenario where
+the client-server architecture is used, and explain the roles of the client and server.
+ 2. Client requests data, server processes and responds with data
+The scenario painted here is an Online Shopping Website
+Imagine you are visiting an online shopping website, like Amazon. This website uses the client-server architecture to provide its services.
+
+Role of client: The client is any device or application that requests services or resources from the server. In this scenario, your web browser (like Chrome, Firefox, or Safari) acts as the client. Initiates requests, displays data, user interactions.
+Role of server: The server is a powerful computer or set of computers that provide services or resources to clients. In this scenario, the server is responsible for hosting the online shopping website and managing the backend processes.Handles requests, processes data, sends responses, manages user sessions.
+
+Question 2
+In a typical web application, what is the role of the server?
+ 1. To provide data and services requested by the client
+
+Question 3
+Which component of the client-server architecture is responsible for storing and retrieving
+information from databases?
+ 2. Server
+
+Question 4
+Which component of the client-server architecture is responsible for storing and retrieving
+information from databases?
+ 3. Any device connected to a network
+
+ Scenario 6 -Web brower functionality
+
+Question 1
+You are optimizing a web application for better performance. What role does the web browser
+play in rendering a web page, and what steps are involved from entering a URL to displaying
+the content?
+ 3. Fetches resources, processes responses, and renders content. (URL entry, DNS resolution, TCP/IP connection, HTTP request, Server processing, HPPT response, Rendering the content, Displaying the content)
+
+Question 2
+What is the first step a web browser takes when you start typing a URL?
+4. Performs a DNS lookup.
+
+Question 3
+How does a browser determine the IP address of a URL?
+2. By performing a DNS lookup.
+
+Question 4
+What happens after the browser receives the HTTP response from the server?
+ 1. The browser processes and renders the content.
+
+Scenario 7 -HTTP request handling
+
+Question 1
+Your web application is experiencing slow response times. What could be a potential cause
+related to HTTP request handling, and how can it be resolved?
+3. Optimize the size of HTTP responses.
+
+Question 2
+In optimizing HTTP requests, what is a good practice to reduce load times?
+2. Reducing the size of HTTP responses.
+
+ Question 3
+If a web page is taking too long to load due to multiple HTTP requests, what technique can be
+used to improve performance?
+1. Minimizing HTTP requests by combining files.
+
+Question 4
+How can HTTP response caching help in improving the performance of a web application?
+2. By storing copies of frequently accessed resoures
+
+Scenario 8 -Evolution of HTML
+
+Question 1
+You are tasked with updating an old website that uses HTML 2.0. How has HTML evolved,
+and what are some key features in the latest version that you can use to enhance the website?
+1. Support for CSS and JavaScript. New semantic elements and multimedia support.
+
+Question 2
+What is the primary use of HTML in web development?
+3. To structure web page content
+
+Question 3
+Which of the following versions of HTML introduced new semantic elements like <header>,
+<footer>, and <article>?
+ 3. HTML5
+
+Question 4
+What is the role of CSS when used alongside HTML?
+ 4. To control the layout, style, and appearance of web pages
+
+Scenario 9 -Front-end frameworks
+
+Question 1
+Your team needs to choose a front-end framework for a new project focused on creating
+dynamic and interactive user interfaces. Which framework would you recommend, and why?
+ 2. React.js - React's component-based architecture allows for reusable, modular components, which can make development and maintenance easier.
+
+Question 2
+Which of the following frameworks is most commonly used for building responsive web
+designs?
+ 1. Bootstrap
+
+Question 3
+In the context of front-end development, which library would you use to simplify DOM
+manipulation?
+ 3. Jquery
+
+Question 4
+For a project requiring a lot of real-time updates to the user interface, which front-end
+framework would you recommend?
+ 1. React.js
+
+Scenario 10 -Browser cache
+
+Question 1
+You notice that a frequently visited web page is loading slowly. How can browser caching
+improve the performance, and what is the process involved?
+ 2. Storing copies of frequently accessed resources locally.
+
+Question 2
+What is a benefit of caching HTTP responses in the browser?
+ 1. Reduces server load and speeds up page load times.
+
+Question 3
+When implementing caching strategies, which HTTP header is used to specify caching
+directives?
+ 2. Cache-Control
+
+Question 4
+Which of the following scenarios would benefit the most from browser caching?
+ 2. A frequently accessed static blog page.
