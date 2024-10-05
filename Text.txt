@@ -1,0 +1,2 @@
+Git pull - From remote (online/git) to local repo (folder) 
+*Git push - From Local to remote: main use*
